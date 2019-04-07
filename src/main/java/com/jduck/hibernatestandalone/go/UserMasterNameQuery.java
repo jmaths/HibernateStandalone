@@ -13,7 +13,7 @@ import org.hibernate.Session;
  */
 public class UserMasterNameQuery {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         for (int i = 3000; i < 4010; i++) {
             UserMaster userMaster = findByUserid(i);
         if (userMaster != null) {
@@ -22,7 +22,7 @@ public class UserMasterNameQuery {
         }
         }
         
-    }
+    }*/
 
     public static UserMaster findByUserid(int userId) {
         Session session = HibernateUtil.getSessionFactory().openSession();
