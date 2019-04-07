@@ -17,15 +17,15 @@ import org.hibernate.Transaction;
  */
 public class GoDestination {
 
-    public static void main(String[] args) {
-        /*  select().subList(1, select().size() - 1).forEach((userMaster) -> {
+    /* public static void main(String[] args) {
+         select().subList(1, select().size() - 1).forEach((userMaster) -> {
             System.out.println(userMaster.getUserid() + ">>" + userMaster.getFirstname()+ ">>" + userMaster.getLastname()
                     + " >> " + userMaster.getMobile());
         });
 
         for (int i = 11000; i < 50000; i++) {
             add(i);
-        }*/
+        }
 
         UserMaster userMaster = getSelectById(48000);
         if (userMaster != null) {
@@ -33,7 +33,7 @@ public class GoDestination {
                     + " >> " + userMaster.getMobile());
         }
 
-    }
+    }*/
 
     private static void add(int i) {
         try {

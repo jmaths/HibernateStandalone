@@ -1,2 +1,5 @@
 
-lib/unknown/binary/mysql-connector-java-5.1.23-bin/SNAPSHOT/mysql-connector-java-5.1.23-bin-SNAPSHOT.jar
+nbactions.xml
+target/*
+ 
+*.jar
